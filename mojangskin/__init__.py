@@ -217,7 +217,7 @@ class Skin():
         return DATA[self.model][bone][face]
     pos = _pos #TODO remove underscore
 
-    #TODO
+    #TODO head_overlay missing
     def origin(self, bone:Bone, face:Face, scale:float=1.0): # Returns with the bones origin
         DATA = {
             'classic': {
